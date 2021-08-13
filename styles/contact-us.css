@@ -1,0 +1,105 @@
+/********************** 
+  MAP SECTION STYLES
+***********************/
+
+.map__info {
+  background-color: var(--purple);
+  margin-top: -10px;
+  display: flex;
+  justify-content: center;
+}
+
+.info__icon {
+  font-size: 3rem;
+}
+
+.info__text {
+  margin-top: 1em;
+}
+
+.info {
+  color: white;
+  width: 50%;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.border {
+  margin: 2em 0;
+  background-color: white;
+  border: 1px solid white;
+}
+
+.map__image img {
+  width: 100%;
+}
+
+/********************** 
+  LEAVE US A MESSAGE STYLES
+***********************/
+
+.inputs {
+  margin-top: 2em;
+}
+
+.input__container + .input__container {
+  margin-top: 2em;
+}
+
+.input__bar {
+  width: 100%;
+  background-color: var(--gray);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 2em 2em;
+}
+
+.input__bar::placeholder,
+select {
+  color: var(--gray1);
+}
+
+.btn--m-top {
+  margin-top: 5em;
+}
+
+.section__bottom {
+  margin-top: 5em;
+}
+
+.section__bottom h3 {
+  margin-bottom: 2em;
+}
+
+@media (min-width: 1080px) {
+  /********************** 
+  LEAVE US A MESSAGE STYLES
+  ***********************/
+
+  .inputs {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 5em;
+  }
+
+  .input__container + .input__container {
+    margin-top: 0;
+  }
+
+  .grid {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat (4, 1fr);
+  }
+
+  .input__container1,
+  .input__container2,
+  .input__container5 {
+    grid-column: span 2;
+  }
+
+  .test {
+    border: 2px solid red;
+  }
+}

@@ -1,0 +1,551 @@
+/* THESE  STYLES ARE THE UNIVERSAL STYLES ON ALL THE PAGES */
+
+/********************** 
+    UNIVERSAL STYLES
+***********************/
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--primary-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  position: relative;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.btn {
+  border: none;
+  color: white;
+  background-color: var(--purple);
+  border-radius: 5px;
+  padding: 0.8em 1.5em;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--hover-purple);
+}
+
+.section {
+  padding: 5em 0;
+  line-height: 2rem;
+}
+
+.section--secondary {
+  margin: 3em 0;
+}
+
+.row--margin-top {
+  margin-top: 2.5em;
+}
+
+.row--align-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.card__heading {
+  font-size: 1em;
+}
+
+.section--light {
+  background-color: var(--gray);
+}
+
+.center {
+  text-align: center;
+}
+
+.container--m-bottom {
+  margin-bottom: 4em;
+}
+
+.section--m-top {
+  padding-top: 0;
+}
+
+/********************** 
+  BAR STYLES
+***********************/
+
+.bar {
+  display: none;
+}
+
+/********************** 
+    HEADER STYLES
+***********************/
+
+.header {
+  display: none;
+}
+
+.social {
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.social__logo,
+.phone__icon,
+.email__icon {
+  width: 15px;
+}
+
+.social__links {
+  text-decoration: none;
+}
+
+.social__links + .social__links {
+  margin-left: 1em;
+}
+
+/********************** 
+    NAV STYLES
+***********************/
+
+.nav__list {
+  padding: 0;
+}
+
+.logo-container {
+  margin-top: 1em;
+  width: 90px;
+}
+
+.logo {
+  width: 100%;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.nav {
+  padding: 0.8em 0;
+  background-color: #fff;
+  position: sticky;
+  z-index: 10;
+  box-shadow: 0 0 1rem 1px rgb(0 0 0 / 3%);
+  top: 0;
+}
+
+.hamburger {
+  position: absolute;
+  font-size: 2rem;
+  top: 10px;
+  right: 0;
+}
+
+.nav-bar {
+  max-height: 0;
+  overflow: hidden;
+  margin-top: 1em;
+  transition: all 0.3s linear;
+}
+
+.nav-bar--toggle {
+  max-height: 400px;
+  margin-top: 2.5em;
+  transition: all 0.3s linear;
+}
+
+.nav__links {
+  text-decoration: none;
+  color: var(--gray1);
+  font-weight: 400;
+}
+
+.nav__links:hover,
+.nav__links:focus {
+  color: black;
+}
+
+.btn,
+.btn:hover,
+.btn:focus {
+  color: white;
+}
+
+.nav__items {
+  list-style: none;
+  margin-top: 2em;
+  text-align: center;
+}
+
+.active {
+  color: black;
+  border-bottom: 2px solid black;
+}
+
+/********************** 
+    HEADING STYLES
+***********************/
+
+.container--main {
+  padding: 3em 0;
+}
+
+.heading {
+  background-color: var(--gray);
+}
+
+.heading h1 {
+  font-family: var(--primary-font);
+  font-size: 3rem;
+}
+
+.sub-heading h3 {
+  font-weight: 300;
+}
+
+.sub-heading--bold {
+  font-weight: 500;
+}
+
+/********************** 
+    FOOTER STYLES
+***********************/
+
+.contact-us {
+  margin-top: 3em;
+}
+
+.contact__list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact__item,
+.newsletter__text {
+  font-size: 1rem;
+}
+
+.contact__item + .contact__item {
+  margin-top: 0.5em;
+}
+
+.btn--sub {
+  width: 40%;
+  border: 1px solid #f4eefb;
+  padding: 0;
+  border-radius: 0 8px 8px 0;
+  padding: 1em 0.5em;
+  margin-left: -4px;
+}
+
+.input {
+  width: 55%;
+  padding: 1em 0.8em;
+  border: 1px solid #f4eefb;
+  border-radius: 8px 0 0 8px;
+  display: inline-block;
+}
+
+.important__links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  line-height: 3rem;
+  font-size: 0.75rem;
+}
+
+.important__items a {
+  color: black;
+}
+
+.newsletter .social,
+.important-section h3 {
+  display: none;
+}
+
+.section--p-bottom {
+  padding-bottom: 0;
+}
+
+.copyright {
+  text-align: center;
+  padding: 2em 0;
+}
+
+.social--margin-top {
+  margin-top: 1em;
+}
+
+.footer .scroll-to-top-btn {
+  background-color: var(--purple);
+  width: 30px;
+  height: 30px;
+  font-size: 1rem;
+  color: white;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 1em;
+}
+
+.container .scroll-to-top-btn {
+  display: flex;
+}
+
+.scroll-to-top-btn:hover {
+  background-color: var(--hover-purple);
+}
+
+.social--big {
+  text-align: center !important;
+  font-size: 4rem;
+}
+
+.social--big img {
+  width: 50px;
+}
+
+@media (min-width: 1080px) {
+  /********************** 
+    UNIVERSAL STYLES
+  ***********************/
+
+  .row {
+    display: flex;
+  }
+
+  .row--spacing {
+    justify-content: space-between;
+  }
+
+  .row--align {
+    align-items: center;
+  }
+
+  .section {
+    padding: 10rem 0;
+  }
+
+  .section--p-top {
+    padding-top: 0;
+  }
+
+  /********************** 
+    BAR STYLES
+  ***********************/
+  .bar {
+    display: block;
+    background-color: var(--gray);
+    padding: 3em 0;
+  }
+
+  .company {
+    align-self: center;
+    color: var(--gray);
+    width: 20%;
+  }
+
+  .company__logo {
+    width: 15%;
+  }
+
+  .company__name {
+    align-self: center;
+    margin-left: 1.2em;
+  }
+
+  /********************** 
+      HEADER STYLES
+  ***********************/
+
+  .header {
+    display: block;
+    padding: 1em 0;
+    background-color: var(--gray);
+    text-align: center;
+  }
+
+  .social__logo,
+  .phone__icon,
+  .email__icon {
+    width: 15px;
+  }
+
+  .contact-info {
+    width: 100%;
+    color: var(--gray);
+  }
+
+  .phone__number,
+  .email__address {
+    align-self: center;
+    margin-left: 0.5em;
+  }
+
+  .email {
+    margin-left: 1em;
+  }
+
+  .email__link,
+  .phone__link {
+    text-decoration: none;
+    color: var(--purple);
+  }
+
+  .social {
+    margin: 0;
+    text-align: right;
+    align-self: center;
+    width: 100%;
+  }
+
+  .social__links {
+    text-decoration: none;
+  }
+
+  .social__links + .social__links {
+    margin-left: 1em;
+  }
+
+  /********************** 
+    NAV STYLES
+  ***********************/
+  .logo-container {
+    align-self: center;
+    margin: 0;
+  }
+
+  .nav-bar {
+    max-height: 400px;
+    margin-top: 0;
+  }
+
+  .nav__list {
+    padding: 0;
+  }
+
+  .nav__items {
+    margin: 0;
+  }
+
+  .nav-bar {
+    margin-left: auto;
+  }
+
+  .nav__items + .nav__items {
+    margin-left: 2.3em;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  /********************** 
+    FOOTER STYLES
+  ***********************/
+
+  .contact-us {
+    margin-top: 0;
+  }
+
+  .contact-us {
+    order: 1;
+    width: 25%;
+  }
+
+  .important-section {
+    order: 2;
+    width: 25%;
+  }
+
+  .important__links {
+    display: block;
+    font-size: 1rem;
+  }
+
+  .important__items {
+    padding-left: 0.5em;
+    margin-left: 0.5em;
+  }
+
+  .important__items::marker {
+    font-family: "Font Awesome 5 Free";
+    content: "\f0da";
+    font-weight: 900;
+  }
+
+  .important__items + .important__items {
+    margin-top: 0.5em;
+  }
+
+  .important__items a {
+    text-decoration: none;
+  }
+
+  .important-section h3 {
+    display: block;
+    margin-bottom: 0;
+  }
+
+  .newsletter {
+    order: 3;
+    width: 40%;
+  }
+
+  .section--primary .social {
+    display: none;
+  }
+
+  .newsletter .social {
+    margin-top: 1em;
+    display: flex;
+  }
+
+  .footer {
+    position: relative;
+  }
+
+  .footer .scroll-to-top-btn {
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    right: 50px;
+  }
+
+  .container .scroll-to-top-btn {
+    display: none;
+  }
+
+  .section--p-bottom {
+    padding-bottom: 0;
+  }
+}

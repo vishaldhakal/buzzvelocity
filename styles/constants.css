@@ -1,0 +1,18 @@
+:root {
+  /* COLORS */
+  --gray: #f8f9fa;
+  --gray1: #637589;
+  --gray2: #a1a1a1;
+  --purple: #5e227f;
+  --yellow: #f8b500;
+  --pink: #d22780;
+
+  --border-color: #f4eefb;
+
+  --hover-purple: #7a34a0;
+  --hover-card: rgb(215 224 252 / 45%);
+
+  /* FONTS */
+  --primary-font: "Poppins", sans-serif;
+  --heading-font: "Playfair Display", serif;
+}

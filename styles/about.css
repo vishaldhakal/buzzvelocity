@@ -1,0 +1,237 @@
+/********************** 
+    MAIN SECTION STYLES
+***********************/
+
+.section__content {
+  margin-top: 1em;
+}
+
+.line {
+  width: 30px;
+  background-color: var(--purple);
+  border: 1px solid var(--purple);
+}
+
+.section__block {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.block__name,
+.block__number {
+  color: var(--purple);
+}
+
+.block__name {
+  font-size: 0.75rem;
+  padding-top: 1rem;
+}
+
+.block__number {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-top: 1rem;
+}
+
+/********************** 
+    OUR AMAZING TEAM STYLES
+***********************/
+
+.team {
+  margin-top: 3em;
+}
+
+.team__member {
+  padding: 2em 1em;
+  border: 1px solid red;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+}
+
+.team__member:hover {
+  box-shadow: 0 0 30px var(--hover-card);
+}
+
+.team__member + .team__member {
+  margin-top: 2em;
+}
+
+.member__image {
+  width: 60%;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.member__image img {
+  border-radius: 50%;
+}
+
+.member__name {
+  margin-top: 1em;
+}
+
+.member__post {
+  font-size: 0.75rem;
+}
+
+.member__social {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.social__links--box {
+  background-color: var(--purple);
+  padding: 0.5em;
+  display: inline-flex;
+  border-radius: 8px;
+}
+
+.social__links--box:hover {
+  background-color: var(--hover-purple);
+}
+
+.social__logo {
+  fill: white;
+  margin: 0 auto;
+}
+
+/********************** 
+  CLIENT REVIEWS STYLES
+***********************/
+
+.fa-quote-right,
+.fa-quote-left {
+  font-size: 2rem;
+  background: -webkit-linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-quote-right {
+  width: 100%;
+  text-align: right;
+}
+
+.reviews--secondary {
+  margin-top: 3em;
+}
+
+.reviews__card {
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background-color: var(--gray);
+}
+
+.reviews__card:hover,
+.reviews__card:focus {
+  box-shadow: 0px 0px 30px var(--hover-card);
+}
+
+.reviews__card + .reviews__card {
+  margin-top: 3em;
+}
+
+.client__review {
+  color: var(--gray1);
+}
+
+.client {
+  background-color: var(--gray);
+  display: flex;
+  align-items: center;
+}
+
+.client__image {
+  width: 20%;
+  margin-right: 2em;
+}
+
+.client__info {
+  align-self: flex-start;
+}
+
+.card__container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.review__top {
+  position: relative;
+  margin: 2em 0;
+}
+
+.arrow-btn {
+  display: none;
+}
+
+@media (min-width: 1080px) {
+  /********************** 
+    MAIN SECTION STYLES
+***********************/
+
+  .section__image {
+    width: 40%;
+  }
+
+  .section__content {
+    margin-top: 0;
+  }
+
+  .block__item {
+    width: 30%;
+  }
+
+  /********************** 
+    OUR AMAZING TEAM STYLES
+  ***********************/
+
+  .team {
+    margin-top: 5em;
+  }
+
+  .team__member {
+    width: 22%;
+  }
+
+  .team__member + .team__member {
+    margin-top: 0;
+  }
+
+  /********************** 
+    ICON BAR STYLES
+***********************/
+
+  .item {
+    width: 20%;
+    text-align: center;
+  }
+
+  /********************** 
+  CLIENT REVIEWS STYLES
+***********************/
+
+  .reviews__card + .reviews__card {
+    margin-top: 0;
+  }
+
+  .reviews__card {
+    width: 40%;
+  }
+
+  .arrow-btn {
+    display: flex;
+    background-color: var(--purple);
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-60px, 200px);
+  }
+
+  .arrow-btn--right {
+    transform: translate(60px, 200px);
+  }
+}

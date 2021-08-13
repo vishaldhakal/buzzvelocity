@@ -1,0 +1,85 @@
+/********************** 
+    POSTS STYLES
+***********************/
+
+.post__link {
+  text-decoration: none;
+  display: block;
+}
+
+.post__link:active,
+.post__link:visited {
+  color: black;
+}
+
+.post__link + .post__link {
+  margin-top: 3em;
+}
+
+.post__image {
+  height: 250px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.post__info {
+  margin: 1em 0;
+  padding: 0 0.3rem;
+}
+
+.post__content {
+  margin-bottom: 1.5em;
+}
+
+.post__heading {
+  color: black;
+  margin: 0.8em 0;
+}
+
+.time {
+  color: var(--gray1);
+}
+
+.btn-tag {
+  font-size: 0.75rem;
+  width: 30%;
+  text-align: center;
+  padding: 0.2em 0.8em;
+
+  color: var(--gray1);
+  background-color: white;
+  border: 1px solid var(--gray1);
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.post__footer {
+  padding: 0 0.3rem;
+  display: flex;
+  margin-bottom: 0 1em;
+}
+
+.post__footer span {
+  font-weight: 900;
+  margin-left: 0.3em;
+}
+
+.read-more a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (min-width: 1080px) {
+  .post__link + .post__link {
+    margin-top: 0;
+  }
+
+  .grid {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}

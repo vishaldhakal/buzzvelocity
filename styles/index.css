@@ -1,0 +1,481 @@
+/********************** 
+    MAIN STYLES
+***********************/
+
+.main {
+  background-color: var(--gray);
+}
+
+.main__image {
+  margin-bottom: 3em;
+}
+
+.main__image img {
+  width: 100%;
+}
+
+.main__heading {
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: var(--primary-font);
+}
+
+.main__text {
+  font-size: 1.125rem;
+  color: var(--gray1);
+  margin-bottom: 3em;
+  line-height: 1.8;
+}
+
+/********************** 
+  HOW-IT-WORKS STYLES
+***********************/
+
+.section__text,
+.card__text {
+  color: var(--gray1);
+}
+
+.section__heading {
+  font-family: var(--primary-font);
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.number {
+  color: #5e227f26;
+  font-size: 2.25rem;
+  line-height: 50px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: var(--purple);
+}
+
+.card-top {
+  display: flex;
+}
+
+.card__icon {
+  width: 50px;
+  margin-left: 1rem;
+}
+
+.card + .card {
+  margin-top: 2em;
+}
+
+.card-bottom {
+  margin-left: 80px;
+}
+
+/********************** 
+  SERVICES WE PROVIDE STYLES
+***********************/
+
+.card--flex {
+  display: flex;
+}
+
+.card--reset {
+  margin-left: 0;
+}
+
+.card--border {
+  border: 1px solid var(--border-color);
+  padding: 1.5em;
+  border-radius: 8px;
+}
+
+.card--border:hover {
+  box-shadow: 0px 0px 30px var(--hover-card);
+}
+
+.card--margin-left {
+  margin-left: 1em;
+}
+
+/********************** 
+  OUR WORKS STYLES
+***********************/
+
+.our-work__card {
+  margin-bottom: 5em;
+}
+
+.img__container {
+  padding: 1em;
+  border-radius: 8px;
+  background-color: #7f53ac;
+  background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+  display: flex;
+  align-items: center;
+}
+
+.img__container img {
+  border-radius: 10px;
+}
+
+.wcontent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.winfo span {
+  color: var(--gray1);
+  font-size: 0.75em;
+}
+
+.wbtn {
+  padding: 0.3em 1.2em;
+  border-radius: 8px;
+  background-color: var(--purple);
+}
+
+.wbtn a {
+  text-decoration: none;
+  border-radius: 8px;
+  color: white;
+}
+
+.our-works--primary {
+  padding-bottom: 2em;
+}
+
+.icons {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  text-align: center;
+}
+
+.icon span {
+  font-size: 0.75rem;
+}
+
+.our-works--secondary {
+  margin-top: 3em;
+}
+
+/************************************* 
+  WHY YOU SHOULD WORK WITH US STYLES
+*************************************/
+
+.section__content {
+  margin-top: 2em;
+}
+
+.line {
+  width: 30px;
+  background-color: var(--purple);
+  border: 1px solid var(--purple);
+}
+
+.section__block {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.block__name,
+.block__number {
+  color: var(--purple);
+}
+
+.block__name {
+  font-size: 0.75rem;
+  padding-top: 1rem;
+}
+
+.block__number {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-top: 1rem;
+}
+
+/********************** 
+  LATEST POSTS STYLES
+***********************/
+
+.post__link {
+  text-decoration: none;
+  display: block;
+}
+
+.post__link:active,
+.post__link:visited {
+  color: black;
+}
+
+.post__link + .post__link {
+  margin-top: 3em;
+}
+
+.post__info {
+  margin: 1em 0;
+  padding: 0 0.3rem;
+}
+
+.post__image {
+  height: 250px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.post__content {
+  margin-bottom: 1.5em;
+}
+
+.post__heading {
+  color: black;
+  margin: 0.8em 0;
+}
+
+.post__text,
+.time {
+  color: var(--gray1);
+}
+
+.btn-tag {
+  font-size: 0.75rem;
+  width: 30%;
+  text-align: center;
+  padding: 0.2em 0.8em;
+
+  color: var(--gray1);
+  background-color: white;
+  border: 1px solid var(--gray1);
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.post__footer {
+  display: flex;
+  padding: 0 0.3rem;
+  margin-bottom: 1em;
+  justify-content: space-between;
+}
+
+.post__footer span {
+  font-weight: 900;
+  margin-left: 0.3em;
+}
+
+.read-more a {
+  text-decoration: none;
+  color: black;
+}
+
+/********************** 
+  CLIENT REVIEWS STYLES
+***********************/
+
+.fa-quote-right,
+.fa-quote-left {
+  font-size: 2rem;
+  background: -webkit-linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-quote-right {
+  width: 100%;
+  text-align: right;
+}
+
+.reviews--secondary {
+  margin-top: 3em;
+}
+
+.reviews__card {
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background-color: var(--gray);
+}
+
+.reviews__card:hover,
+.reviews__card:focus {
+  box-shadow: 0px 0px 30px var(--hover-card);
+}
+
+.reviews__card + .reviews__card {
+  margin-top: 3em;
+}
+
+.client__review {
+  color: var(--gray1);
+}
+
+.client {
+  background-color: var(--gray);
+  display: flex;
+  align-items: center;
+}
+
+.client__image {
+  width: 20%;
+  margin-right: 2em;
+}
+
+.client__info {
+  align-self: flex-start;
+}
+
+.card__container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.review__top {
+  position: relative;
+  margin: 2em 0;
+}
+
+.arrow-btn {
+  display: none;
+}
+
+@media (min-width: 1080px) {
+  /********************** 
+    MAIN STYLES
+  ***********************/
+
+  .main__content {
+    width: 50%;
+  }
+
+  .main__image {
+    margin-top: 0;
+    width: 40%;
+    order: 2;
+  }
+
+  .container--main {
+    padding: 7em 0;
+  }
+
+  /********************** 
+    HOW-IT-WORKS STYLES
+  ***********************/
+
+  .card--width {
+    width: 30%;
+  }
+
+  .card + .card {
+    margin-top: 0;
+  }
+
+  /********************** 
+  SERVICES WE PROVIDE STYLES
+***********************/
+
+  .card--border {
+    width: 48%;
+  }
+
+  /********************** 
+  OUR APPROACH STYLES
+***********************/
+
+  .card--width-s {
+    width: 20%;
+  }
+
+  /********************** 
+     OUR WORKS STYLES
+  ***********************/
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .wrapper {
+    position: relative;
+  }
+
+  .our-works--primary {
+    padding: 2em 0;
+    width: 100%;
+    position: sticky;
+    top: 6.5rem;
+  }
+
+  .our-works--secondary {
+    margin-top: 0;
+  }
+
+  .img__container {
+    padding: 2em;
+  }
+
+  /************************************* 
+     WHY YOU SHOULD WORK WITH US STYLES
+  *************************************/
+
+  .icons {
+    width: 45%;
+    align-self: center;
+    grid-gap: 3rem;
+  }
+
+  .section__content {
+    margin-top: 0;
+    width: 45%;
+  }
+
+  .block__item {
+    width: 30%;
+  }
+
+  /********************** 
+     LATEST POSTS STYLES
+  ***********************/
+
+  .post__link + .post__link {
+    margin-top: 0;
+  }
+
+  .post-grid {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .btn-div {
+    padding: 2em 0;
+  }
+
+  /********************** 
+    CLIENT REVIEWS STYLES
+  ***********************/
+
+  .reviews__card + .reviews__card {
+    margin-top: 0;
+  }
+
+  .reviews__card {
+    width: 40%;
+  }
+
+  .arrow-btn {
+    display: flex;
+    background-color: var(--purple);
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-60px, 200px);
+  }
+
+  .arrow-btn--right {
+    transform: translate(60px, 200px);
+  }
+}
