@@ -58,9 +58,12 @@
 select {
   color: var(--gray1);
 }
-
+.mt-mine {
+  margin-top: 3rem;
+}
 .btn--m-top {
   margin-top: 5em;
+  padding: 1rem 2rem;
 }
 
 .section__bottom {
