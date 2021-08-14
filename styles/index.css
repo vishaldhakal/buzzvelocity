@@ -479,3 +479,9 @@
     transform: translate(60px, 200px);
   }
 }
+
+@media (max-width: 700px) {
+  .section__block {
+    flex-direction: column;
+  }
+}
