@@ -138,8 +138,15 @@ input {
 
 .section__heading {
   font-family: var(--primary-font);
-  font-weight: 700;
+  font-weight: 700 ;
   font-size: 1.2rem;
+}
+.section__heading2 h2{
+  font-weight: 800  !important;
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--purple);
+  display: inline-block;
 }
 
 .number {
@@ -459,7 +466,7 @@ input {
   }
 
   .container--main {
-    padding: 7em 0;
+    padding: 4.5em 0;
   }
 
   /********************** 
@@ -586,5 +593,85 @@ input {
 @media (max-width: 700px) {
   .section__block {
     flex-direction: column;
+  }
+}
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about .container {
+  position: relative;
+  padding-top:3rem ;
+  padding-bottom:2rem ;
+}
+
+.about .content {
+  padding: 35px 35px 35px 0px;
+}
+
+.about .content h3 {
+  font-weight: 600;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+.about .content p {
+  margin-bottom: 30px;
+}
+
+.about .content .about-btn {
+  padding: 8px 30px 9px 30px;
+  color: #fff;
+  border-radius: 50px;
+  transition: 0.3s;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 13px;
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid #0bb5d6;
+  background: #0bb5d6;
+}
+
+.about .content .about-btn i {
+  font-size: 16px;
+  padding-left: 5px;
+}
+
+.about .content .about-btn:hover {
+  background: transparent;
+  color: #0bb5d6;
+}
+
+.about .icon-boxes .icon-box {
+  margin-top: 30px;
+}
+
+.about .icon-boxes .icon-box i {
+  font-size: 40px;
+  color: #0bb5d6;
+  margin-bottom: 10px;
+}
+
+.about .icon-boxes .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+}
+
+.about .icon-boxes .icon-box p {
+  font-size: 15px;
+  color: #848484;
+}
+
+@media (max-width: 1200px) {
+  .about .content {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    text-align: center;
   }
 }

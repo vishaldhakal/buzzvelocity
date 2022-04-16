@@ -8,7 +8,20 @@
 * {
   box-sizing: border-box;
 }
-
+.bg-light{
+  background-color: var(--gray);
+}
+.py-mine{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.px-3{
+  padding-right: 4rem;
+}
+.section__text p{
+  font-weight: 500;
+  color: black;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -557,4 +570,8 @@ img {
   .section--p-bottom {
     padding-bottom: 0;
   }
+}
+.bottom-logo{
+  padding-top: 2rem;
+  max-width: 150px !important;
 }

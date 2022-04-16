@@ -18,65 +18,15 @@
   <meta property="og:image:width" content="1080" />
   <meta property="og:image:height" content="1080" />
   <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,900&display=swap"
-    rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;800&display=swap"
-    rel="stylesheet" />
   <script src="https://kit.fontawesome.com/8a6b16f641.js" crossorigin="anonymous"></script>
-
   <link rel="stylesheet" href="styles/constants.css" />
   <link rel="stylesheet" href="styles/style.css" />
   <link rel="stylesheet" href="styles/index.css" />
+  <link rel="stylesheet" href="../styles/contact-us.css" />
 </head>
 
 <body>
   <div class="main-wrapper">
-    <header class="header">
-      <div class="container row">
-        <div class="contact-info row">
-          <div class="phone row">
-            <img src="images/phone-call.svg" alt="telephone" class="phone__icon" />
-            <span class="phone__number">
-              <a href="tel: +977 9866316114" class="phone__link">
-                +977 9866316114
-              </a>
-            </span>
-          </div>
-
-          <div class="email row">
-            <img src="images/envelope.svg" alt="telephone" class="email__icon" />
-            <span class="email__address">
-              <a href="mailto: buzzvelocity@gmail.com" class="email__link">
-                buzzvelocity@gmail.com
-              </a>
-            </span>
-          </div>
-        </div>
-
-        <!-- Social Links -->
-        <div class="social">
-          <a href="https://www.facebook.com/buzzvelocity12" target="_blank" class="social__links">
-            <img src="images/social/facebook.svg" alt="facebook" class="social__logo" />
-          </a>
-
-          <a href="https://www.linkedin.com/in/buzz-velocity-598866214/" target="_blank" class="social__links">
-            <img src="images/social/linkedin.svg" alt="linkedin" class="social__logo" /></a>
-
-          <a href="https://www.instagram.com/buzzvelocity/" target="_blank" class="social__links">
-            <img src="images/social/instagram.svg" alt="instagram" class="social__logo" />
-          </a>
-
-          <a href="https://www.youtube.com/channel/UCpeMSrvaaK5TZt-C9hHVivw" target="_blank" class="social__links">
-            <img src="images/social/youtube.svg" alt="youtube" class="social__logo" /></a>
-
-          <a href="https://www.tiktok.com/@buzzvelocity/" target="_blank" class="social__links">
-            <img src="images/social/tik-tok.svg" alt="tiktok" class="social__logo" />
-          </a>
-        </div>
-      </div>
-    </header>
-
     <nav class="nav">
       <div class="container row row--align">
         <div class="logo-container">
@@ -93,13 +43,22 @@
               <a href="./about/index.html" class="nav__links">About</a>
             </li>
             <li class="nav__items">
-              <a href="./contact-us/index.html" class="nav__links">Contact</a>
+              <a href="./about/index.html" class="nav__links">Services</a>
+            </li>
+            <li class="nav__items">
+              <a href="./about/index.html" class="nav__links">Pricing</a>
+            </li>
+            <li class="nav__items">
+              <a href="./about/index.html" class="nav__links">Works</a>
             </li>
             <li class="nav__items">
               <a href="./blog/index.html" class="nav__links">Blog</a>
             </li>
             <li class="nav__items">
-              <a href="#" class="nav__links btn">Get a Quote</a>
+              <a href="./contact-us/index.html" class="nav__links">Contact</a>
+            </li>
+            <li class="nav__items">
+              <a href="telto:9866316114" class="nav__links btn">CALL NOW : 9866316114</a>
             </li>
           </ul>
           <div class="hamburger">
@@ -137,8 +96,47 @@
       <img src="images/leftvec.png" alt="" class="leftvec">
     </main>
 
+    <section class="about section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section--primary">
+          <div class="section__heading2">
+            <h2>With Buzzvelocity you achive</h2>
+          </div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-xl-7 d-flex align-items-stretch">
+            <div class="icon-boxes d-flex flex-column justify-content-center">
+              <div class="row gx-5">
+                <div class="col-md-6 py-4 px-3 icon-box" data-aos="fade-up" data-aos-delay="100">
+                  <img src="images/log/google.png" alt="google icon" class="img-fluid">
+                  <h4 class="mt-3">Best ranking on Google</h4>
+
+                </div>
+                <div class="col-md-6 py-4 px-3 icon-box" data-aos="fade-up" data-aos-delay="200">
+                  <img src="images/log/website.png" alt="google icon" class="img-fluid">
+                  <h4 class="mt-3">Fully mordern and mobile first website</h4>
+
+                </div>
+                <div class="col-md-6 py-4 px-3 icon-box" data-aos="fade-up" data-aos-delay="300">
+                  <img src="images/log/ads.png" alt="google icon" class="img-fluid">
+                  <h4 class="mt-3">Make your Campaign's go crazy</h4>
+
+                </div>
+                <div class="col-md-6 py-4 px-3 icon-box" data-aos="fade-up" data-aos-delay="400">
+                  <img src="images/log/sales.png" alt="google icon" class="img-fluid">
+                  <h4 class="mt-3">Get more conversion than ever</h4>
+
+                </div>
+              </div>
+            </div><!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section>
+
     <!-- HOW IT WORKS SECTION -->
-    <section class="section" id="scroll-view">
+    <section class="section bg-light py-mine" id="scroll-view">
       <div class="container">
         <div class="section--primary">
           <div class="section__heading">
@@ -516,7 +514,7 @@
             </div>
             <div class="card-bottom card--reset">
               <div class="card__heading">
-                <h3>Lunch</h3>
+                <h3>Launch</h3>
               </div>
               <div class="card__text">
                 <p>After the Design and Development Part of the website is finished, the final step is to launch it </p>
@@ -620,63 +618,70 @@
       </div>
     </section>
 
-    <!-- WHY YOU SHOULD WORK WITH US SECTION -->
-    <section class="section">
-      <div class="container row row--spacing">
-        <div class="icons">
-          <div class="icon">
-            <img src="./images/icons/services-section-icons/graphicsdesign.png" alt="" />
-            <h4>3200 +</h4>
-            <span>Satisfied Customer</span>
-          </div>
-          <div class="icon">
-            <img src="./images/icons/services-section-icons/graphicsdesign.png" alt="" />
-            <h4>03 +</h4>
-            <span>Years Of Experience</span>
-          </div>
-          <div class="icon">
-            <img src="./images/icons/services-section-icons/graphicsdesign.png" alt="" />
-            <h4>1200 +</h4>
-            <span>Projects Completed</span>
-          </div>
-          <div class="icon">
-            <img src="./images/icons/services-section-icons/graphicsdesign.png" alt="" />
-            <h4>900 +</h4>
-            <span>Websites Launched</span>
-          </div>
+    <section class="mt-mine">
+      <div class="container center">
+        <div class="section__image">
+          <img src="../images/contactt.png" alt="diary" />
         </div>
-        <div class="section__content section__content--half">
-          <div class="section__heading">
-            <h2>Why you should work with us?</h2>
+        <div class="section__heading">
+          <h2>Feel Free To Knock Us</h2>
+        </div>
+        <form name="contact" netlify>
+          <div class="inputs grid">
+            <div class="input__container input__container1">
+              <input type="text" placeholder="Your Name" class="input__bar" name="name" />
+            </div>
+            <div class="input__container input__container2">
+              <select type="select" class="input__bar" name="about">
+                <option value="0" selected>What's this about ?</option>
+                <option value="Social Media Marketing">
+                  Social Media Marketing
+                </option>
+                <option value="Custom Digital Marketing">
+                  Custom Digital Marketing
+                </option>
+                <option value="Video/Ads Production">
+                  Video/Ads Production
+                </option>
+                <option value="Graphics Design">Graphics Design</option>
+                <option value="SEO">SEO</option>
+                <option value="Others">Others</option>
+              </select>
+            </div>
+            <div class="input__container input__container3">
+              <input type="email" placeholder="Your Email" class="input__bar" name="email" />
+            </div>
+            <div class="input__container input__container4">
+              <input type="text" placeholder="Phone no" class="input__bar" name="phone" />
+            </div>
+            <div class="input__container input__container5">
+              <input type="text" placeholder="Your Message" class="input__bar" name="message" />
+            </div>
           </div>
-          <div class="section__text">
-            <p>
-              We have a group of very expert people in different sectors. e.g
-              - Graphic design, Web Design, Web Development, Digital
-              Marketing, Social Media Marketing, E-mail marketing etc.
-            </p>
+          <div class="input__container">
+            <input type="submit" class="btn center btn--m-top" value="Send Now" />
           </div>
-          <div class="section__block row row--spacing">
-            <div class="block__item">
-              <div class="line"></div>
-              <div class="block__name">Awards</div>
-              <div class="block__number">800+</div>
-            </div>
-            <div class="block__item">
-              <div class="line"></div>
-              <div class="block__name">Happy Clients</div>
-              <div class="block__number">1200+</div>
-            </div>
-            <div class="block__item">
-              <div class="line"></div>
-              <div class="block__name">Years Of Experience</div>
-              <div class="block__number">12+</div>
-            </div>
+        </form>
+        <div class="center section__bottom">
+          <h3>CONNECT WITH US ON</h3>
+          <div class="social social--big center">
+            <a href="https://www.facebook.com/" target="_blank" class="social__links">
+              <img src="../images/social/facebook1.svg" alt="facebook" class="social__logo" />
+            </a>
+
+            <a href="https://www.linkedin.com/" target="_blank" class="social__links">
+              <img src="../images/social/linkedin3.svg" alt="linkedin" class="social__logo" /></a>
+
+            <a href="https://www.instagram.com/" target="_blank" class="social__links">
+              <img src="../images/social/instagram2.svg" alt="instagram" class="social__logo" />
+            </a>
+
+            <a href="https://www.youtube.com/" target="_blank" class="social__links">
+              <img src="../images/social/youtube4.svg" alt="youtube" class="social__logo" /></a>
           </div>
         </div>
       </div>
     </section>
-
     <!-- LATEST POSTS SECTION -->
     <!-- <section class="section">
         <div class="container">
@@ -828,24 +833,15 @@
       </section> -->
 
     <!-- FOOTER -->
-    <footer class="footer">
+    <footer class="footer bg-light">
       <section class="section section--p-bottom">
         <div class="container">
           <div class="section--primary row row--spacing">
             <div class="newsletter">
               <div class="newsletter__heading">
-                <h3>Our Newsletter</h3>
+                <h3>Buzz your brand now !</h3>
               </div>
-              <div class="newsletter__text">
-                <p>
-                  Subscribe to our mailing list to get the updates to your
-                  email box.
-                </p>
-              </div>
-              <div class="subscribe">
-                <input type="email" placeholder="E-mail" class="input" />
-                <button class="btn btn--sub">Subscribe</button>
-              </div>
+              <img src="images/logo/logo.svg" alt="logo of buzzvelocity" class="img-fluid bottom-logo">
               <br>
               <!-- Social Links -->
               <div class="social social--margin-top">
